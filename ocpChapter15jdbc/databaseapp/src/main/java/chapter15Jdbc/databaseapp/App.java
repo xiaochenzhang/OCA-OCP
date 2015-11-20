@@ -39,7 +39,7 @@ public class App {
                     gameService.transationAddGame();
                     break;
                 case "6":
-                    gameService.getGamePriceViaStoredProcedure("Hearthstone");
+                    gameService.getUpperCaseViaStoredProcedure("Hearthstone");
                     break;
                 default:
                     System.out.println("Invalid command.");

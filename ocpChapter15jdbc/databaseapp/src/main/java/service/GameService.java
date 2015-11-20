@@ -21,7 +21,7 @@ public class GameService {
         gameDao.getGames();
     }
 
-    public void getGamePriceViaStoredProcedure(final String name) {
+    public void getUpperCaseViaStoredProcedure(final String name) {
         System.err.println("\nCalling stored procedure...");
         gameDao.getUpperCaseViaStoredProcedure(name);
     }
